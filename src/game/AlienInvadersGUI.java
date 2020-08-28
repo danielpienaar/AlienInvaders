@@ -1536,7 +1536,7 @@ public class AlienInvadersGUI extends javax.swing.JFrame
                                 chance = chance * 100;
                                 chance = Math.round(chance);
                                 chance = chance / 100;
-                                JOptionPane.showMessageDialog(this, "You rolled a " + roll1 + ". This means that each of your soldiers will have a " + chance + "% chance of killing an enemy.");
+                                JOptionPane.showMessageDialog(this, "You rolled a " + roll1 + ". This means that each of your soldiers will have a " + (chance*100) + "% chance of killing an enemy.");
                                 boolean success = false;
                                 while (success == false)
                                 {
@@ -1820,7 +1820,7 @@ public class AlienInvadersGUI extends javax.swing.JFrame
                                 chance = chance * 100;
                                 chance = Math.round(chance);
                                 chance = chance / 100;
-                                JOptionPane.showMessageDialog(this, "You rolled a " + roll1 + ". This means that each of your soldiers will have a " + chance + "% chance of killing an enemy.");
+                                JOptionPane.showMessageDialog(this, "You rolled a " + roll1 + ". This means that each of your soldiers will have a " + (chance*100) + "% chance of killing an enemy.");
                                 boolean success = false;
                                 while (success == false)
                                 {
